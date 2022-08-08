@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  border: 0;
+  font-family: 'Roboto', sans-serif;
+  list-style: none;
+  text-decoration: none;
+
+}
+
+html {
+
+  scroll-behavior: smooth;
+
+}
+body {
+
+  background-color: #E2E2E2;
+
+}
+
+.main-header {
+
+  position: sticky;
+  top: 0;
+
+}
+
+.main-nav {
+
+  width: 100%;
+  height: 200px;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  padding: 20px;  
+  background-color: #269DC8;
+  animation: change 10s ease-in-out infinite;
+
+}
+
+.main-nav img {
+
+  width: 200px;
+
+}
+
+.main-menu {
+
+  display: flex;
+  gap: 20px;
+
+}
+
+.main-menu a {
+  
+  color: yellow;
+  filter: drop-shadow(1px 1px 1px black);
+  font-weight: bold;
+  letter-spacing: 1px;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 2em;
+
+}
+
+.main-menu a:hover {
+  
+  background-color: #FFFF;
+
+}
+
+.banner {
+  
+  width: 100%;
+
+}
+
+.main-content {
+  
+  padding: 20px;
+  
+}
+
+.main-content .curiosidades {
+
+  display: flex;
+  gap: 32px;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  height: 100vh;
+
+}
+
+.main-content .cards {
+  
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  background: white;
+  padding: 1rem 1.5rem;
+  border-radius: 8px;
+
+}
+
+.main-content .cards h3 {
+  
+  padding: 5px;
+  font-size: 1.5em;
+  font-weight: bold;
+
+}
+
+.main-content .cards button {
+
+  width: fit-content;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  border: 0;
+  cursor: pointer;
+  font-size: 80%;
+  font-weight: bold;
+  margin-top: 5px;
+
+}
+
+.video {
+  
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  align-items: center;
+
+}
+
+footer {
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 200px;
+  gap: 100px;
+
+
+}
+.linkedin {
+
+  font-size: 64px;
+  color: #0077b7;
+
+}
+
+.github {
+
+  font-size: 64px;
+  color: #24292F;
+
+}

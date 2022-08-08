@@ -1,0 +1,11 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+  
+}
+.card .card-favorite{
+  height: 40px;
+  width: 40px;
+}

@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Petit+Formal+Script&display=swap');
+*{
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Petit Formal Script', cursive;
+}
+body{
+  /* width: 1920px; */
+  height: 100vh;
+  background-color: hsl(212, 45%, 89%);  
+}
+.attribution { 
+  font-size: 11px; 
+  text-align: center; 
+}
+.attribution a { 
+  color: hsl(228, 45%, 44%); 
+}
+.container {
+position: relative;
+
+}
+.qrcode {
+  position: absolute;
+  background-color: hsl(0, 0%, 100%);
+  padding: 15px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  width: 300px;
+  height: 500px;
+  /* text-align: center;
+  align-items: center; */
+}
+img {
+  width: 270px;
+  border-radius: 10px;
+}
+h1{
+  color: hsl(218, 44%, 22%);
+  font-weight: 700;
+  text-align: center;
+  padding: 20px 10px;
+  
+}
+p {
+  text-align: center;
+  font-size: 15px;
+  font-weight: 400;
+  color: hsl(220, 15%, 55%);
+}
